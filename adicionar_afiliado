@@ -1,0 +1,2 @@
+def adicionar_afiliado(link_original):
+    return f"{link_original}?tag={AFILIADO_ID}"  # Ajuste o parâmetro para o formato do seu programa de afiliados

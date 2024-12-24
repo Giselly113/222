@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RASTRIEI PROMO</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+    <!-- Cabeçalho -->
+    <header>
+        <!-- Logo -->
+        <div class="logo">
+            <h1>RASTRIEI PROMO</h1>
+        </div>
+    <!-- Barra de pesquisa -->
+    <div class="search-bar">
+        <input type="text" id="searchInput" placeholder="Buscar produto...">
+        <button id="searchButton">Buscar</button>
+    </div>
+</header>
+    <!-- Filtros e Categorias -->
+    <section class="filtros">
+        <h2>Encontre as Melhores Ofertas</h2>
+        <div class="filtro-categorias">
+            <select name="categoria" id="categoria">
+                <option value="todas">Todas as Categorias</option>
+                <option value="eletronicos">Eletrônicos</option>
+                <option value="moda">Moda</option>
+                <option value="beleza">Beleza</option>
+            </select>
+            <select name="filtro" id="filtro">
+                <option value="populares">Mais Populares</option>
+                <option value="recentes">Recentes</option>
+                <option value="preco-baixo">Preço: Baixo para Alto</option>
+            </select>
+        </div>
+    </section>
+    <section class="banner">
+        <img src="" alt="Banner Promocional">
+    </section>
+    <!-- Lista de Promoções -->
+    <section class="promocoes">
+        <h2>Promoções em Destaque</h2>
+        <div class="grid-promocoes">
+            <div class="promocao">
+                <img src="https://m.media-amazon.com/images/I/71HNAb4kHoL._AC_SX679_.jpg" alt="Imagem do Produto 2">
+                <h3>Whisky Johnnie Walker Red Label 1L</h3>
+                    <p class="preço">    <p id="post-time">há 10 min</p>
+                    <a href="https://amzn.to/3ZvHBjP" target="_blank" class="btn-comprar">R$78,80</a>  
+                    <button class="btn-copiar" data-cupom="" data-link="https://amzn.to/3ZvHBjP">pegar promoção</button>
+               </p>
+            </div>
+            
+            <div class="promocao"> 
+                <img src="${promo.image}" alt="${promo.title}">
+                <h3>${promo.title}</h3>
+                <p class="preco">
+                    <a href="${promo.link}" target="_blank" class="btn-comprar">${promo.price}</a>
+                </p>
+            </div>
+              
+            <!-- Produto 2 -->
+            <div class="promocao">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_896206-MLU77350532814_072024-O.webp" alt="Imagem do Produto 2">
+                <h3>Geladeira Frost Free Brastemp Inverse 447 Litros Inox - Bre5 220V</h3>
+                <p class="preco">
+                    <a href="https://mercadolivre.com/sec/2s5XEVb" target="_blank" class="btn-comprar">R$22,99</a>
+                    <button class="btn-copiar" data-cupom="DESCONTO10" data-link="https://mercadolivre.com/sec/2s5XEVb">pegar promoção</button>
+                    </p>
+                </div>
+
+            <!-- Produto 4 -->
+            <div class="promocao">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_696535-MLB80336635986_112024-O.webp" alt="Imagem do Produto 4">
+                <h3>Panificadora Britânia Multipane Com Timer 550w 110v</h3>
+             <p class="preco">
+                <!-- Botão de copiar cupom e redirecionar -->
+    <a href="https://mercadolivre.com/sec/2TYk1jk" target="_blank" class="btn-comprar">R$464,55</a>
+ <button class="btn-copiar" data-cupom="VALE50 " data-link="https://mercadolivre.com/sec/22EZbLG">pegar promoção</button>
+             </p>
+            </div>
+
+            <!-- Produto 5 -->
+            <div class="promocao">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_760837-MLU78303921177_082024-O.webp" alt="Imagem do Produto 5">
+                <h3>Boticário Arbo Puro Colônia 100ml</h3>
+                <p class="preco">
+                    <a href="https://mercadolivre.com/sec/28BrmBi" target="_blank" class="btn-comprar">R$67,91</a>
+                    <button class="btn-copiar" data-cupom="" data-link="https://mercadolivre.com/sec/28BrmBi">pegar promoção </button>
+                </p>
+            </div>
+
+  <!-- Produto 6 -->
+  <div class="promocao">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_640295-MLA80230617766_112024-O.webp" alt="Imagem do Produto 6">
+    <h3>Perfume Lancôme La Vie Est Belle Rosa Extraordinária EDP 30ml</h3>
+    <p class="preco">
+        <a href="https://mercadolivre.com/sec/2CDciex" target="_blank" class="btn-comprar">R$247,83</a>
+        <button class="btn-copiar" data-cupom="GANHOU15" data-link="https://mercadolivre.com/sec/2CDciex">pegar promoção</button>
+    </p>
+</div>
+
+      <!-- Produto 7 -->
+      <div class="promocao">
+        <img src="https://http2.mlstatic.com/D_NQ_NP_858372-MLB71736093126_092023-O.webp" alt="Imagem do Produto 7">
+        <h3>Tênis Olympikus Pride 3 Unissex
+        </h3>
+        <p class="preco">
+            <a href="https://mercadolivre.com/sec/2ZTuUYC" target="_blank" class="btn-comprar">R$169,99</a>
+            <button class="btn-copiar" data-cupom="REDUZ30" data-link="https://mercadolivre.com/sec/22EZbLG">pegar promoção </button>
+        </p>
+     </div>
+
+                 <!-- Produto 8 -->
+            <div class="promocao">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_755753-MLU72628340992_112023-O.webp" alt="Imagem do Produto 8">
+                <h3>O Boticário Glamour Midnight Deo Colônia Feminino 75ml</h3>
+                <p class="preco">
+                    <a href="https://mercadolivre.com/sec/2vDeseJ" target="_blank" class="btn-comprar">R$61,54</a>
+                    <button class="btn-copiar" data-cupom="PROMO15" data-link="https://mercadolivre.com/sec/2vDeseJ">pegar promoção</button>
+                </p>
+            </div>
+    
+                  <!-- Produto 9 -->
+            <div class="promocao">
+                <img src="https://m.media-amazon.com/images/I/61rZHLHOIyL._AC_SX569_.jpg" alt="Imagem do Produto 9">
+                <h3>Downy Lírios do Campo - Amaciante Concentrado, 3L</h3>
+                <p class="preco">
+                    <a href=" https://amzn.to/40WoLDy" target="_blank" class="btn-comprar">R$35,99</a>
+                    <button class="btn-copiar" data-cupom="" data-link="https://mercadolivre.com/sec/22EZbLG">pegar promoção</button>
+                </p>
+             </div>
+
+                  <!-- Produto 10 -->
+            <div class="promocao">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_980476-MLU75881288269_042024-O.webp" alt="Imagem do Produto 10">
+                <h3>Máscara Rapunzel Crescimento 450g</h3>
+                <p class="preco">
+                    <a href="https://mercadolivre.com/sec/1pzcKxN" target="_blank" class="btn-comprar">R$33,15</a>
+                    <button class="btn-copiar" data-cupom="FASHIONBEAUTY" data-link="https://mercadolivre.com/sec/1pzcKxN">pegar promoção</button>
+                    <button class="btn-logo">
+                        <img src="https://th.bing.com/th/id/OIP.umx5k1WyC4IcEFGK75cZmwAAAA?rs=1&pid=ImgDetMain" alt="Logotipo">
+                    </button>
+                </p>
+            </div>
+
+                     <!-- Produto 11 -->
+            <div class="promocao">
+                <img src="https://m.media-amazon.com/images/I/61UwQsVy-iL._AC_SY500_.jpg" alt="Imagem do Produto 10">
+                <h3>Salgadinho Batata Frita Pringles® Churrasco 109g</h3>
+                <p class="preco">
+                    <a href="" target="_blank" class="btn-comprar">R$8,99</a>
+                    <button class="btn-copiar" data-cupom="" data-link="">pegar promoção</button>
+                </p>
+            </div>
+
+             <!-- Produto 12 -->
+             <div class="promocao">
+                <img src="https://m.media-amazon.com/images/I/614jr8lShpL._AC_SX425_.jpg" alt="Imagem do Produto 12">
+                <h3>Seda Creme Para Pentear Boom Definição 1Kg</h3>
+                <p class="preco">
+                    <a href="https://amzn.to/494rEUI" target="_blank" class="btn-comprar">R$16,70</a>
+                    <button class="btn-copiar" data-cupom="" data-link="">pegar promoção</button>
+                  </p>
+                </div>
+    
+
+             <!-- Produto 13 -->
+                  <div class="promocao">
+                     <img src="https://m.media-amazon.com/images/I/61ZmOBGPDYL._AC_SX425_.jpg" alt="Imagem do Produto 13">
+                     <h3>Gelatina ToDeCacho, Super Definição 550 g</h3>
+                     <p class="preco">
+                         <a href="https://amzn.to/4fWwCVI" target="_blank" class="btn-comprar">R$21,51</a>
+                         <button class="btn-copiar" data-cupom="" data-link="">pegar promoção</button>
+                        </p>
+                    </div>
+        
+                </div>
+         
+
+                <script src="script.js"></script>
+
+      <!-- Rodapé -->
+      <footer>
+        <div class="rodape-conteudo">
+            <p>&copy; 2024 Rastriei Promo. Todos os direitos reservados.</p>
+            <div class="social">
+                <a href="#" aria-label="Facebook">Facebook</a>
+                <a href="#" aria-label="Instagram">Instagram</a>
+                <a href="#" aria-label="Twitter">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
